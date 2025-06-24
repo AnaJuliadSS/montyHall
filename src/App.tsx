@@ -44,7 +44,7 @@ const MontyHallGame = () => {
 			{
 				id: 2,
 				isOpen: false,
-				content: newPrizeDoor === 2 ? "/premio.png" : "../public/goat.png",
+				content: newPrizeDoor === 2 ? "/premio.png" : "/goat.png",
 			},
 		];
 
