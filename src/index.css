@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+#apresentador {
+  display: flex;
+  max-height: 15rem;
+}
