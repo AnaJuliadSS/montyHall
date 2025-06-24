@@ -34,17 +34,17 @@ const MontyHallGame = () => {
 			{
 				id: 0,
 				isOpen: false,
-				content: newPrizeDoor === 0 ? "../public/premio.png" : "../public/goat.png",
+				content: newPrizeDoor === 0 ? "/premio.png" : "../public/goat.png",
 			},
 			{
 				id: 1,
 				isOpen: false,
-				content: newPrizeDoor === 1 ? "../public/premio.png" : "../public/goat.png",
+				content: newPrizeDoor === 1 ? "/premio.png" : "../public/goat.png",
 			},
 			{
 				id: 2,
 				isOpen: false,
-				content: newPrizeDoor === 2 ? "../public/premio.png" : "../public/goat.png",
+				content: newPrizeDoor === 2 ? "/premio.png" : "../public/goat.png",
 			},
 		];
 
