@@ -34,12 +34,12 @@ const MontyHallGame = () => {
 			{
 				id: 0,
 				isOpen: false,
-				content: newPrizeDoor === 0 ? "/premio.png" : "../public/goat.png",
+				content: newPrizeDoor === 0 ? "/premio.png" : "/goat.png",
 			},
 			{
 				id: 1,
 				isOpen: false,
-				content: newPrizeDoor === 1 ? "/premio.png" : "../public/goat.png",
+				content: newPrizeDoor === 1 ? "/premio.png" : "/goat.png",
 			},
 			{
 				id: 2,
@@ -173,7 +173,7 @@ const MontyHallGame = () => {
 
 				{/* Portas */}
 				<div className="flex justify-center gap-8 mb-8">
-             <img id="apresentador" src="../public/GabrielApresentador.png" alt="" />
+             <img id="apresentador" src="/GabrielApresentador.png" alt="" />
 					{doors.map((door) => (
 						<div key={door.id} className="text-center">
 							<div
